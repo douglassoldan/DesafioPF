@@ -38,8 +38,8 @@ type TabBarIconProps = {
   size: number;
 };
 
-const TabBarIcon: React.FC<TabBarIconProps> = ({color, size}) => (
-  <FontAwesomeIcon icon={faHome} color={color} size={size} />
+const TabBarIcon: React.FC<TabBarIconProps> = ({size}) => (
+  <FontAwesomeIcon icon={faHome} color={'#281F67'} size={size} />
 );
 
 const App = () => {
